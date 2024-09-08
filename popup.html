@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="header">Convert Your Docs to PDFs on the Flyyy!!</h1>
+        <div class="file-upload">
+            <label for="fileInput" class="file-label">Browse Files</label>
+            <input type="file" id="fileInput" hidden />
+            <span id="fileName">No file chosen</span>
+        </div>
+        
+        <div class="form-group">
+            <h4>Specify the type of file</h4>
+            <select id="fileType" class="dropdown">
+                <option value="word">.docx</option>
+                <option value="ppt">.pptx</option>
+                <option value="txt">.txt</option>
+                <option value="excel">.xlsx</option>
+                <option value="image">.jpg or .jpeg or .png</option>
+            </select>
+        </div>
+        <button id="convertButton" class="convert-btn">Convert to Pdf</button>
+        <div class="info-text">Supports up to 10MB</div>
+        <div id="status" class="status"></div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>

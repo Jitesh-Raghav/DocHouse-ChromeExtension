@@ -1,0 +1,89 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 10px;
+    background-color: #f4f4f4;
+    color: #333;
+    background-image: url('Screenshot\ 2024-09-08\ 181144.png');
+    background-size: cover; /* Adjust to fit the element */
+    
+}
+
+.container {
+    /* background: white; */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    width: 300px;
+}
+
+.container h4{
+    color: #5c66f2;
+}
+.header {
+    color: #5c67f2;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.file-upload {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.file-label {
+    border: 2px solid #5c67f2;
+    color: #5c67f2;
+    padding: 8px 20px;
+    border-radius: 5px;
+    background: white;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#fileName {
+    margin-left: 10px;
+    color: #666;
+}
+
+.dropdown {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.convert-btn {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #5c67f2;
+    color: white;
+    cursor: pointer;
+}
+
+.convert-btn:hover {
+    background-color: #4a54e1;
+}
+
+.info-text {
+    font-size: 0.85rem;
+    text-align: center;
+    color: #888;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.status {
+    text-align: center;
+    color: red;  /* Default color, can be overridden by JavaScript */
+    height: 20px;
+    font-size: 1.2em; /* Makes the text larger */
+    font-weight: bold; /* Makes the text bolder */
+    padding: 10px 0; /* Adds padding above and below the text */
+    margin-top: 10px; /* Adds space above the status message */
+}
+
