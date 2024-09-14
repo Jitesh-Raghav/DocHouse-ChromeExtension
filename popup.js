@@ -23,6 +23,7 @@ document.getElementById('convertButton').addEventListener('click', function() {
 
     fetch('https://dochouse-springboot-production.up.railway.app/api/files/convert-to-pdf', {
         method: 'POST',
+        mode: 'no-cors', // This bypasses CORS but limits the response type to 'opaque'
         body: formData
     })
     .then(response => response.blob())
