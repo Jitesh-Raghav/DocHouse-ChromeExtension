@@ -21,7 +21,7 @@ document.getElementById('convertButton').addEventListener('click', function() {
     formData.append('file', file);
     formData.append('type', fileType);
 
-    fetch('http://localhost:8080/api/files/convert-to-pdf', {
+    fetch('https://dochouse-springboot-production.up.railway.app/api/files/convert-to-pdf', {
         method: 'POST',
         body: formData
     })
