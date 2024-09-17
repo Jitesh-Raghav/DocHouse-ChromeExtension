@@ -13,6 +13,6 @@
   },
   "permissions": [],
   "host_permissions": [
-    "https://dochouse-springboot-production.up.railway.app/*"
+    "https://dochouse-springboot-production.up.railway.app/api/files/convert-to-pdf"
   ]
 }
